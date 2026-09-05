@@ -1,0 +1,87 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style:solid;
+    background-image: url(images/curtainsClosed.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover; /*Only important one really*/
+    background-attachment:fixed;
+    text-align: center;
+    margin: auto;
+    font-size: 110%;
+}
+
+
+
+#producer, #director, #cast, #description, #history, .review{
+    background-color: black;
+    background-attachment:fixed;
+    color:white;
+    border-style:solid;
+    border-width: 5px;
+    border-color:gold;
+    border-radius:10px;
+    padding:10px; /*Padding is amount of space aroud words*/
+    
+}
+
+h1{
+    font-size: 90px;
+    color:gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    font-size: 35px;
+    color:gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.promotionPics{
+    width:1000px;
+    height:1000px;
+    margin:50px;
+}
+
+.review {
+    background-color: white;
+    background-attachment:fixed;
+    color:black;
+    border-style:solid;
+    border-width: 5px;
+    border-color:gold;
+    border-radius:10px;
+    padding:10px; /*Padding is amount of space aroud words*/
+    margin: 25px;
+
+}
+
+#minilogo {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#productionsContainer{
+    display:flex; 
+}
+
+.productions{
+    margin:10px;
+    margin: auto;
+    
+}
+
+#largelogo {
+    margin:30px;
+}
+
+.info {
+    color:white;
+}
